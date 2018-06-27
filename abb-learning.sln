@@ -1,7 +1,15 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abb-learning", "abb-learning\abb-learning.csproj", "{F85122C6-2EEB-4AA7-93BF-C91189B4966A}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "abb-learning", "abb-learning\abb-learning.csproj", "{F85122C6-2EEB-4AA7-93BF-C91189B4966A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0AF26F68-E4D2-4440-9400-D0CFF4ED0777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abb-learning.Tests", "abb-learning.Tests\abb-learning.Tests.csproj", "{13EF2496-56D6-4BD4-BC86-2834EE0D132E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F85122C6-2EEB-4AA7-93BF-C91189B4966A} = {F85122C6-2EEB-4AA7-93BF-C91189B4966A}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +21,18 @@ Global
 		{F85122C6-2EEB-4AA7-93BF-C91189B4966A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F85122C6-2EEB-4AA7-93BF-C91189B4966A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F85122C6-2EEB-4AA7-93BF-C91189B4966A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13EF2496-56D6-4BD4-BC86-2834EE0D132E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13EF2496-56D6-4BD4-BC86-2834EE0D132E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13EF2496-56D6-4BD4-BC86-2834EE0D132E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13EF2496-56D6-4BD4-BC86-2834EE0D132E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13EF2496-56D6-4BD4-BC86-2834EE0D132E} = {0AF26F68-E4D2-4440-9400-D0CFF4ED0777}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5E375FB-4B2A-4F93-BC7C-F7065CBEBD43}
 	EndGlobalSection
 EndGlobal

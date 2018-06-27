@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
 namespace abb_learning.Controllers
@@ -24,7 +22,7 @@ namespace abb_learning.Controllers
             {
                 throw new NotImplementedException("Not supported");
             }
-            return "value";
+            return $"value {id}";
         }
 
         // POST api/values
