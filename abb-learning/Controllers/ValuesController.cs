@@ -20,6 +20,10 @@ namespace abb_learning.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
+            if (id == 404)
+            {
+                throw new NotImplementedException("Not supported");
+            }
             return "value";
         }
 
